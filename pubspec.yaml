@@ -1,0 +1,35 @@
+name: novatec_v2
+description: "Application Novatec - Contrôle Béton"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.5+3
+  path_provider: ^2.1.2
+  pdf: ^3.10.4
+  printing: ^5.12.0
+  intl: ^0.19.0
+  url_launcher: ^6.0.9
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/icons/app_icon.png
